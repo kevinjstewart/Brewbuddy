@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110BCAF21CA73BDD008084AE /* BeerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110BCAF11CA73BDD008084AE /* BeerListViewController.m */; };
+		110BCAF51CA75509008084AE /* BrewBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 110BCAF31CA75509008084AE /* BrewBuddy.xcdatamodeld */; };
+		110BCAF81CA7579D008084AE /* BeerEntry+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 110BCAF71CA7579D008084AE /* BeerEntry+CoreDataProperties.m */; };
+		11DA724B1CB011EB00D7D6FB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DA724A1CB011EB00D7D6FB /* MapKit.framework */; };
+		11E5ACE91C87936D003ED1B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E5ACE81C87936D003ED1B2 /* main.m */; };
+		11E5ACEC1C87936D003ED1B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E5ACEB1C87936D003ED1B2 /* AppDelegate.m */; };
+		11E5ACEF1C87936D003ED1B2 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E5ACEE1C87936D003ED1B2 /* DashboardViewController.m */; };
+		11E5ACF21C87936D003ED1B2 /* AddBeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E5ACF11C87936D003ED1B2 /* AddBeerViewController.m */; };
+		11E5ACF51C87936D003ED1B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E5ACF31C87936D003ED1B2 /* Main.storyboard */; };
+		11E5ACF71C87936D003ED1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E5ACF61C87936D003ED1B2 /* Assets.xcassets */; };
+		11E5ACFA1C87936D003ED1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E5ACF81C87936D003ED1B2 /* LaunchScreen.storyboard */; };
+		11E5AD061C879846003ED1B2 /* BeerEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E5AD051C879846003ED1B2 /* BeerEntry.m */; };
+		11E5AD0C1C879DCE003ED1B2 /* BeerEntryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E5AD0B1C879DCE003ED1B2 /* BeerEntryStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110BCAF01CA73BDD008084AE /* BeerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerListViewController.h; sourceTree = "<group>"; };
+		110BCAF11CA73BDD008084AE /* BeerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListViewController.m; sourceTree = "<group>"; };
+		110BCAF41CA75509008084AE /* BrewBuddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrewBuddy.xcdatamodel; sourceTree = "<group>"; };
+		110BCAF61CA7579D008084AE /* BeerEntry+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeerEntry+CoreDataProperties.h"; sourceTree = "<group>"; };
+		110BCAF71CA7579D008084AE /* BeerEntry+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BeerEntry+CoreDataProperties.m"; sourceTree = "<group>"; };
+		11DA724A1CB011EB00D7D6FB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		11E5ACE41C87936D003ED1B2 /* BrewBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E5ACE81C87936D003ED1B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11E5ACEA1C87936D003ED1B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11E5ACEB1C87936D003ED1B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11E5ACED1C87936D003ED1B2 /* DashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		11E5ACEE1C87936D003ED1B2 /* DashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		11E5ACF01C87936D003ED1B2 /* AddBeerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddBeerViewController.h; sourceTree = "<group>"; };
+		11E5ACF11C87936D003ED1B2 /* AddBeerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddBeerViewController.m; sourceTree = "<group>"; };
+		11E5ACF41C87936D003ED1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11E5ACF61C87936D003ED1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11E5ACF91C87936D003ED1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11E5ACFB1C87936D003ED1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E5AD041C879846003ED1B2 /* BeerEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerEntry.h; sourceTree = "<group>"; };
+		11E5AD051C879846003ED1B2 /* BeerEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerEntry.m; sourceTree = "<group>"; };
+		11E5AD0A1C879DCE003ED1B2 /* BeerEntryStore.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 5; lastKnownFileType = sourcecode.c.h; path = BeerEntryStore.h; sourceTree = "<group>"; };
+		11E5AD0B1C879DCE003ED1B2 /* BeerEntryStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerEntryStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11E5ACE11C87936C003ED1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DA724B1CB011EB00D7D6FB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E5ACDB1C87936C003ED1B2 = {
+			isa = PBXGroup;
+			children = (
+				11DA724A1CB011EB00D7D6FB /* MapKit.framework */,
+				11E5ACE61C87936D003ED1B2 /* BrewBuddy */,
+				11E5ACE51C87936D003ED1B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11E5ACE51C87936D003ED1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11E5ACE41C87936D003ED1B2 /* BrewBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11E5ACE61C87936D003ED1B2 /* BrewBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				110BCAF31CA75509008084AE /* BrewBuddy.xcdatamodeld */,
+				110BCAF61CA7579D008084AE /* BeerEntry+CoreDataProperties.h */,
+				110BCAF71CA7579D008084AE /* BeerEntry+CoreDataProperties.m */,
+				11E5AD041C879846003ED1B2 /* BeerEntry.h */,
+				11E5AD051C879846003ED1B2 /* BeerEntry.m */,
+				11E5AD0A1C879DCE003ED1B2 /* BeerEntryStore.h */,
+				11E5AD0B1C879DCE003ED1B2 /* BeerEntryStore.m */,
+				11E5ACED1C87936D003ED1B2 /* DashboardViewController.h */,
+				11E5ACEE1C87936D003ED1B2 /* DashboardViewController.m */,
+				11E5ACF01C87936D003ED1B2 /* AddBeerViewController.h */,
+				11E5ACF11C87936D003ED1B2 /* AddBeerViewController.m */,
+				110BCAF01CA73BDD008084AE /* BeerListViewController.h */,
+				110BCAF11CA73BDD008084AE /* BeerListViewController.m */,
+				11E5ACEA1C87936D003ED1B2 /* AppDelegate.h */,
+				11E5ACEB1C87936D003ED1B2 /* AppDelegate.m */,
+				11E5ACF31C87936D003ED1B2 /* Main.storyboard */,
+				11E5ACF61C87936D003ED1B2 /* Assets.xcassets */,
+				11E5ACF81C87936D003ED1B2 /* LaunchScreen.storyboard */,
+				11E5ACFB1C87936D003ED1B2 /* Info.plist */,
+				11E5ACE71C87936D003ED1B2 /* Supporting Files */,
+			);
+			path = BrewBuddy;
+			sourceTree = "<group>";
+		};
+		11E5ACE71C87936D003ED1B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11E5ACE81C87936D003ED1B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11E5ACE31C87936C003ED1B2 /* BrewBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E5ACFE1C87936D003ED1B2 /* Build configuration list for PBXNativeTarget "BrewBuddy" */;
+			buildPhases = (
+				11E5ACE01C87936C003ED1B2 /* Sources */,
+				11E5ACE11C87936C003ED1B2 /* Frameworks */,
+				11E5ACE21C87936C003ED1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrewBuddy;
+			productName = BrewBuddy;
+			productReference = 11E5ACE41C87936D003ED1B2 /* BrewBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11E5ACDC1C87936C003ED1B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kevin Stewart";
+				TargetAttributes = {
+					11E5ACE31C87936C003ED1B2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 22Z75D88WL;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 11E5ACDF1C87936C003ED1B2 /* Build configuration list for PBXProject "BrewBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11E5ACDB1C87936C003ED1B2;
+			productRefGroup = 11E5ACE51C87936D003ED1B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11E5ACE31C87936C003ED1B2 /* BrewBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11E5ACE21C87936C003ED1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E5ACFA1C87936D003ED1B2 /* LaunchScreen.storyboard in Resources */,
+				11E5ACF71C87936D003ED1B2 /* Assets.xcassets in Resources */,
+				11E5ACF51C87936D003ED1B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11E5ACE01C87936C003ED1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E5AD061C879846003ED1B2 /* BeerEntry.m in Sources */,
+				11E5ACF21C87936D003ED1B2 /* AddBeerViewController.m in Sources */,
+				11E5AD0C1C879DCE003ED1B2 /* BeerEntryStore.m in Sources */,
+				11E5ACEC1C87936D003ED1B2 /* AppDelegate.m in Sources */,
+				110BCAF81CA7579D008084AE /* BeerEntry+CoreDataProperties.m in Sources */,
+				110BCAF21CA73BDD008084AE /* BeerListViewController.m in Sources */,
+				11E5ACEF1C87936D003ED1B2 /* DashboardViewController.m in Sources */,
+				110BCAF51CA75509008084AE /* BrewBuddy.xcdatamodeld in Sources */,
+				11E5ACE91C87936D003ED1B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11E5ACF31C87936D003ED1B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11E5ACF41C87936D003ED1B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11E5ACF81C87936D003ED1B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11E5ACF91C87936D003ED1B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11E5ACFC1C87936D003ED1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11E5ACFD1C87936D003ED1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11E5ACFF1C87936D003ED1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BrewBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.kevinstewart.BrewBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11E5AD001C87936D003ED1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BrewBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.kevinstewart.BrewBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11E5ACDF1C87936C003ED1B2 /* Build configuration list for PBXProject "BrewBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E5ACFC1C87936D003ED1B2 /* Debug */,
+				11E5ACFD1C87936D003ED1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E5ACFE1C87936D003ED1B2 /* Build configuration list for PBXNativeTarget "BrewBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E5ACFF1C87936D003ED1B2 /* Debug */,
+				11E5AD001C87936D003ED1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		110BCAF31CA75509008084AE /* BrewBuddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				110BCAF41CA75509008084AE /* BrewBuddy.xcdatamodel */,
+			);
+			currentVersion = 110BCAF41CA75509008084AE /* BrewBuddy.xcdatamodel */;
+			path = BrewBuddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11E5ACDC1C87936C003ED1B2 /* Project object */;
+}
